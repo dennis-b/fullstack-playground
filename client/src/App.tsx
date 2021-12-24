@@ -25,7 +25,6 @@ function App() {
                             <Route path="/" element={<Navigate to="/home"/>}/>
                         </Routes>
                     </StyledAppRoot>
-                    {/*<AppNotify ref={setNotify}/>*/}
                 </RecoilRoot>
             </QueryClientProvider>
         </BrowserRouter>
